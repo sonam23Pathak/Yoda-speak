@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+/** colors **/
+
+
+:root {
+
+    --primary-color: rgb(9, 148, 228);
+    --primary-text-color: #E5E7EB;
+
+
+
+}
+
+body {
+
+    font-family: 'Lalezar', cursive;
+    margin: 4px;
+    background-color: var(--primary-color);
+
+}
+
+hr {
+
+    margin: 2rem 0rem;
+
+}
+
+button {
+
+    width: 70px;
+    height: 35px;
+    border: solid;
+    margin: 1rem;
+    text-align: center;
+}
+
+textarea {
+    border: #E5E7EB;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+#output {
+
+
+    padding: 1rem;
+    margin: 1rem auto;
+}
